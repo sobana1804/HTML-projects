@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    .nav {
+      height: 50px;
+      background: blue;
+      position: relative;
+    }
+
+    .nav div {
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      padding: 15px;
+      font-size: 20px;
+      color: white;
+    }
+
+    .nav ul {
+      position: absolute;
+      right: 5px;
+      top: 0;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .nav ul li {
+      display: inline-block;
+      margin-left: 15px;
+    }
+
+    .nav ul li a {
+      color: white;
+      padding: 5px;
+      text-decoration: none;
+    }
+
+    .home {
+      background: url("https://png.pngtree.com/thumb_back/fw800/background/20250323/pngtree-served-pork-and-veal-schnitzel-with-tomato-lemon-herbs-and-breaded-crust-photo-photo-image_65926020.webp") no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+    }
+
+    .home .text {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 90vh;
+      color: rgb(26, 24, 24);
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <div>Company Name</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./service.html">Service</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="home">
+    <div class="text">
+      <div>
+        <h1>Lenova</h1>
+        <h2>Hello!</h2>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
